@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+}
+
+header .title h1 span {
+  color: #157347;
+  transition: all 0.3s;
+}
+
+header .title h1 {
+  transition: all 0.3s;
+}
+
+header .title h1:hover {
+  color: #157347;
+  transform: scale(1.5, 1.5) rotate(360deg);
+  
+}
+
+
+header .title h1:hover span {
+  color: #000;
+}
+
+i {
+  cursor: pointer;
+}
